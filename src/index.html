@@ -6,35 +6,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--inicio del boque general de la pagina-->
     <div id="root">
+    <div id="getPass">
     <header>
       <h1>! B I E N V E N I D O ¡</h1>
-      <h2>CyPHER Pass</h2>
       <h3>...Somos Tu Lugar seguro</h3>
+      <h2>CyPHER Pass</h2>
     </header>
-    <div id="getpass">
+    <!--caja de de cifrado-->
       <p> Para Codificar tu contraseña ingresa un Dato importante y selecciona el Rango de Dificultad.</p>
      <form>
-     <input type="text" id="datoUsuario" spellcheck="false" placeholder="Ingresar dato tipo texto" name="dato" />
+     <input type="text" id="datoUsuario" spellcheck="false" placeholder="Ingresar dato tipo texto" name="datoGp" />
      <br/>
-     <input id="rango" type="range" min="1" max="20" step="1" oninput="this.elemetSibling.value = this.value"/>
+     <input type="range" id="rango" min="1" max="20" step="1" oninput="this.elemetSibling.value = this.value"/>
      <output>10</output>
      <br/>
      <button type="button" id="generar">Codificar</button>
+
+     <!--<h4>*Si Olvido su CyPHER Pass*</h4>-->
+     <!--<a href="#getOffPass">!Ingrese Aqui¡</a>-->
+     <!--<<button type="button" id="ingreseAqui">!Ingrese Aqui¡</button>-->
      </form>
     </div>
-    <div id="get">
+    <!--nueva pagina con caja de de descifrado-->
+    <div id="getOffPass">
       <h1>! E X C E L E N T E ¡</h1>
       <h2>...ya tienes tu CyPHER Pass</h2>
       <p>te recomendamos conservarlo en un lugar seguro, en caso de olvidarlo puedes descifrarlo a continuacion</p>
-    </div>
   </br>
-  <div id="getOffPass">
     <form>
-      <input type="text" placeholder="Ingresar CyPHER Pass" name="dato" id="datoUsuario"/>
+      <input type="text" id="datoUsuariooff" placeholder="Ingresar CyPHER Pass" name="datoGop" />
       <button type="button" id="descifrar"> DesCodificar 
       </button>
-    </form>
+ </br> 
+      <button type="button" id="otroCypher"> Obtener Otro CyPHER Pass  
+      </button>
+  </form>
   </div>
   </div>
     <script src="index.js" type="module"></script>

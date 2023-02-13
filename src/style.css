@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root{
-    background: purple;
+    background-image: url(28454-matrix.jpg);
+    background-size: 100%
     color:whitesmoke;
     border-radius: 10px;
 }
@@ -11,6 +12,27 @@
 }
 
 body {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+input , button {
+    border: none;
+    outline: none;
+}
+
+:getpass {
+   padding: 25px;
+   background-color: rgb(12, 11, 11);
+   box-shadow: 15xp 40px 15px rgba(1, 29, 2, 0.75);
+   border-radius: 4px;
 
 }
+
+
+
+
+
+
