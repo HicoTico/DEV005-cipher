@@ -469,3 +469,19 @@ Project Feedback:
 * [ ] El proyecto será entregado subiendo tu código a GitHub.
 * [ ] La interfaz será "desplegada" usando GitHub Pages.
 * [ ] El README contiene una definición del producto.
+
+
+# CyPHER Pass
+
+## 1. Descripcion del Proyecto
+
+Este Proyecto se desarrolla bajo la Logica del conocido Cifrado cesar, metodo utilizado
+por el ex Dictador Romano Julio Cesar. el cual tiene como ojetivo principal
+cifrado por sustitución en el que una letra en el texto original es
+reemplazada por otra letra que se encuentra un número fijo de posiciones más
+adelante en el alfabeto.
+
+## 2. Tematica
+
+Se escogio la Tematica de Crear claves seguras para cualquier plataforma o aplicacion,
+asi como crearlas, descifralas en caso de que el usuario la extravie o la olvide.

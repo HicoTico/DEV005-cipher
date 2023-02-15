@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!--inicio del boque general de la pagina-->
-    <div id="root">
-    <div id="getPass">
-    <header>
-      <h1>! B I E N V E N I D O ¡</h1>
-      <h3>...Somos Tu Lugar seguro</h3>
-      <h2>CyPHER Pass</h2>
-    </header>
-    <!--caja de de cifrado-->
-      <p> Para Codificar tu contraseña ingresa un Dato importante y selecciona el Rango de Dificultad.</p>
-     <form>
-     <input type="text" id="datoUsuario" spellcheck="false" placeholder="Ingresar dato tipo texto" name="datoGp" />
-     <br/>
-     <input type="range" id="rango" min="1" max="20" step="1" oninput="this.elemetSibling.value = this.value"/>
-     <output>10</output>
-     <br/>
-     <button type="button" id="generar">Codificar</button>
 
-     <!--<h4>*Si Olvido su CyPHER Pass*</h4>-->
-     <!--<a href="#getOffPass">!Ingrese Aqui¡</a>-->
-     <!--<<button type="button" id="ingreseAqui">!Ingrese Aqui¡</button>-->
-     </form>
-    </div>
-    <!--nueva pagina con caja de de descifrado-->
-    <div id="getOffPass">
-      <h1>! E X C E L E N T E ¡</h1>
-      <h2>...ya tienes tu CyPHER Pass</h2>
-      <p>te recomendamos conservarlo en un lugar seguro, en caso de olvidarlo puedes descifrarlo a continuacion</p>
-  </br>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--caja inicial-->
+  <header id="inicio" class="inicio">
+    <h1>! B I E N V E N I D O ¡</h1>
+    <h3>...Somos Tu Lugar seguro</h3>
+    <h2>CyPHER Pass</h2>
     <form>
-      <input type="text" id="datoUsuariooff" placeholder="Ingresar CyPHER Pass" name="datoGop" />
-      <button type="button" id="descifrar"> DesCodificar 
-      </button>
- </br> 
-      <button type="button" id="otroCypher"> Obtener Otro CyPHER Pass  
-      </button>
-  </form>
-  </div>
-  </div>
-    <script src="index.js" type="module"></script>
-  </body>
+      <h4>Para Obtener tu CyPHER Pass</h4>
+      <button type="button" id="goGenerar">Codificar</button>
+      </br>
+      <h4>Para Descicfrar tu CyPHER Pass</h4>
+      <button type="button" id="goDescifrar">DesCodificar</button>
+    </form>
+  </header>
+  <!--caja de de cifrado-->
+  <section id="getPass" class="getIn">
+    <p> Para Codificar tu contraseña ingresa un Dato importante y selecciona el Rango de Dificultad.</p>
+    <form class="form">
+      <input type="text" id="datoUsuario" spellcheck="false" placeholder="Ingresar dato tipo texto" name="datoGp" />
+      <br />
+      <input type="range" class="rang" id="rango" min="1" max="20" step="1" />
+      <output>10</output>
+      <br />
+      <button type="button" id="generar">Codificar</button>
+      </br>
+      <button type="button" id="otroCypher"> Inicio CyPHER Pass</button>
+    </form>
+  </section>
+  <!-- caja de de descifrado-->
+  <section id="getOffPass" class="getOff">
+    <form class="form">
+      <p>Para DesCodificar tu Cyphher Pass</p>
+      <input type="text" id="datoUsuariooff" placeholder="Ingresar CyPHER Pass aqui" name="datoGop" />
+      </br>
+      <button type="button" id="descifrar"> DesCodificar</button>
+      </br>
+      <button type="button" id="otroCypher2"> Inicio CyPHER Pass</button>
+    </form>
+    </form>
+  </section>
+  <script src="index.js" type="module"></script>
+</body>
 </html>

@@ -1,38 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-:root{
+body {
     background-image: url(28454-matrix.jpg);
-    background-size: 100%
-    color:whitesmoke;
-    border-radius: 10px;
+    background-size: 100%;
+    color: rgb(62, 236, 9);
 }
 
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
 }
 
-body {
+header {
+    padding: 20px;
+    margin: 100px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(12, 11, 11);
+    box-shadow: 10px 5px 5px rgb(62, 236, 9);
+}
+
+.inicio {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.getIn  {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.getIn {
+    padding: 20px;
+    margin: 100px;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(12, 11, 11);
+    box-shadow: 10px 5px 5px rgb(62, 236, 9);
+}
+
+.getOff  {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.getOff {
+    padding: 20px;
+    margin: 100px;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(12, 11, 11);
+    box-shadow: 10px 5px 5px rgb(62, 236, 9);
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+}  
+
+p {
+    text-align: justify;
+}
+
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: green;
 }
 
-input , button {
+input {
+    width: 90%;
+    height: 20px;
+    margin: 1px
+}
+
+button {
+    padding: 5px 25px;
     border: none;
-    outline: none;
+    background: whitesmoke;
+    cursor: pointer;
 }
-
-:getpass {
-   padding: 25px;
-   background-color: rgb(12, 11, 11);
-   box-shadow: 15xp 40px 15px rgba(1, 29, 2, 0.75);
-   border-radius: 4px;
-
-}
-
-
-
-
-
-
