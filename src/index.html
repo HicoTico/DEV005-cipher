@@ -6,6 +6,7 @@
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <!--caja inicial-->
   <header id="inicio" class="inicio">
@@ -26,10 +27,11 @@
     <form class="form">
       <input type="text" id="datoUsuario" spellcheck="false" placeholder="Ingresar dato tipo texto" name="datoGp" />
       <br />
-      <input type="range" class="rang" id="rango" min="1" max="20" step="1" />
-      <output>10</output>
+      0<input type="range" id="rango" class="rang" min="1" max="30" step="1" />30
+      <span class="hint--always hint--successs" data-hint = input type.value></span>
+      <!--<output>15</output>-->
       <br />
-      <button type="button" id="generar">Codificar</button>
+      <button type="button" id="get">Codificar</button>
       </br>
       <button type="button" id="otroCypher"> Inicio CyPHER Pass</button>
     </form>
@@ -40,7 +42,11 @@
       <p>Para DesCodificar tu Cyphher Pass</p>
       <input type="text" id="datoUsuariooff" placeholder="Ingresar CyPHER Pass aqui" name="datoGop" />
       </br>
+      <input type="range" id="rangoOff" class="rang" min="1" max="30" step="1" />
+      <output>15</output>
+      </br>
       <button type="button" id="descifrar"> DesCodificar</button>
+
       </br>
       <button type="button" id="otroCypher2"> Inicio CyPHER Pass</button>
     </form>
@@ -48,4 +54,5 @@
   </section>
   <script src="index.js" type="module"></script>
 </body>
+
 </html>

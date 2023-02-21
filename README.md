@@ -471,6 +471,9 @@ Project Feedback:
 * [ ] El README contiene una definición del producto.
 
 
+![cifrado César](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen1.png)
+
+
 # CyPHER Pass
 
 ## 1. Descripcion del Proyecto
@@ -483,5 +486,41 @@ adelante en el alfabeto.
 
 ## 2. Tematica
 
-Se escogio la Tematica de Crear claves seguras para cualquier plataforma o aplicacion,
-asi como crearlas, descifralas en caso de que el usuario la extravie o la olvide.
+CyPHER Pass es una web para Crear claves/contraseñas seguras que pueden ser utilizadas en cualquier 
+plataforma o aplicacion, asi como crearlas, tambien descifralas en caso de que el usuario la extravie o la olvide.
+
+## 3. Ojetivos Generales del Proyecto
+
+* Aprender desde cero el manejo de los lenguajes html, css y javascript
+ 
+* Cumplir con los criterios de aceptacion del proyecto
+
+* Implementar control de versiones con git (y la plataforma github)
+
+* Preparacion de una Pc para un optimo trabajo
+
+* Completar el Proyecto
+
+
+## 4. Como Funciona
+
+CyPHER Pass consta de tres Display:
+
+    * Display de Bienvevenida:
+
+
+![cifrado César](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\th_disPlay_1.png)
+
+
+* Display para Obtener el CyPHER Pass:
+
+
+![cifrado César](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen2.png)
+
+
+* Display para Descifrar el CyPHER Pass:
+
+![cifrado César](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen3.png)
+
+
+
