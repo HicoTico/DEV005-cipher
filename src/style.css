@@ -12,7 +12,24 @@ body {
 
 header {
     padding: 20px;
-    margin: 100px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(12, 11, 11);
+    box-shadow: 10px 5px 5px rgb(62, 236, 9);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.getIn {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 350px;
     height: 350px;
     position: absolute;
@@ -25,118 +42,90 @@ header {
     box-shadow: 10px 5px 5px rgb(62, 236, 9);
 }
 
-.inicio {
-   text-align: center;
-   vertical-align: middle;
-}
-
-.getIn  {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.getIn {
-    padding: 20px;
-    margin: 100px;
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+.getDisplay {
     margin: auto;
-    background-color: rgb(12, 11, 11);
-    box-shadow: 10px 5px 5px rgb(62, 236, 9);
-}
-
-.getOff  {
+    font-size: 30pt;
     text-align: center;
-    vertical-align: middle;
+    color: rgb(74, 88, 70);
+    text-shadow: 2px 2px 2px rgb(62, 236, 9);
 }
 
-.getOff {
-    padding: 20px;
-    margin: 100px;
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+.getDisplay2 {
     margin: auto;
-    background-color: rgb(12, 11, 11);
-    box-shadow: 10px 5px 5px rgb(62, 236, 9);
-}
-
-
-h1, h2 {
-    text-align: center;
-}
-
-h3{
+    font-size: 15pt;
     text-align: right;
-}  
+    color: rgb(74, 88, 70);
 
-p {
+}
+
+.p1 {
+    border: none;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    vertical-align: middle;
     text-align: justify;
 }
 
 
+.getOff {
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(12, 11, 11);
+    box-shadow: 10px 5px 5px rgb(62, 236, 9);
+}
+
+.getOffdisplay {
+    margin: auto;
+    font-size: 30pt;
+    text-align: center;
+    color: rgb(74, 88, 70);
+    text-shadow: 2px 2px 2px rgb(62, 236, 9);
+}
+
+.getOffdisplay2 {
+    margin: auto;
+    font-size: 15pt;
+    text-align: right;
+    color: rgb(74, 88, 70);
+    text-shadow: 2px 2px 2px rgb(62, 236, 9);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: right;
+}
+
+
 .form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-input {
+.text {
     width: 90%;
     height: 20px;
     margin: 1px
 }
 
-button {
-    padding: 5px 25px;
-    border: none;
-    background: whitesmoke;
-    cursor: pointer;
+.rang {
+    width: 90%;
+    height: 10px;
+    margin: 1px
 }
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #0bb831;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-  }
-  
