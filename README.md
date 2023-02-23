@@ -1,6 +1,6 @@
 
 
-![cifrado César](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen1.png)
+![CyPHER Pass](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen1.png)
 
 
 # CyPHER Pass
@@ -46,7 +46,7 @@ Donde se les da la bienvenida a los Usuarios a la Web Cypher Pass, su lugar segu
 contraseñas, dandole la opciòn por medio de dos botones a seleccionar con un click la opcion que
 desean ejecutar.
 
-![CyPHER Pass](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\th_disPlay_1.png)
+![Display 1](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\th_disPlay_1.png)
 
     * Display de Cifrado, Obteniendo CyPHER Pass:
 Aqui los Usuarios han seleccionado la opciòn de Cifrar y se les invita a ingresar un Dato
@@ -54,7 +54,7 @@ importante, esto pensado bajo el hecho de que sea mas facil de recordar, asi mis
 un Rango entre 1 y 40, con el que se generara el desplazamiento de cifrado de la clave.  
 
 
-![CyPHER Pass](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen2.png)
+![Display 2](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen2.png)
 
 
     * Display de DseCifrado, Obtenido el CyPHER Pass:
@@ -65,7 +65,7 @@ indicado, seleccionar el mismo rango que utilizo para generar el Cifrado y voil�
 su CyPHER Pass ha sido DesCifrado.
 
 
-![CyPHER Pass](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen3.png)
+![Display 3](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen3.png)
 
 
 En los Displays de Cifrado y Descifrado, los Usuarios encontraran un Boton de volver al inicio
@@ -80,7 +80,9 @@ dandole la opcion de Cifrar y DesCifrar de nuevo.
 * [Colors] (https://www.pinterest.es/pin/643170390529184109/)
 
 
-* Este Proyecto fue realizado por: Indira Fabiana Davoin Luna.
+
+
+                 * Este Proyecto fue realizado por: Indira Fabiana Davoin Luna. *  
 
 
 
