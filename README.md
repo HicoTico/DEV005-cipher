@@ -46,7 +46,7 @@ Donde se les da la bienvenida a los Usuarios a la Web Cypher Pass, su lugar segu
 contraseñas, dandole la opciòn por medio de dos botones a seleccionar con un click la opcion que
 desean ejecutar.
 
-![Display 1](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\th_disPlay_1.png)
+![Display 1](https://github.com/HicoTico/DEV005-cipher/blob/26e40db203869041bd834e616724cfce55c0df06/thd_Imagen1.png?raw=true)
 
     * Display de Cifrado, Obteniendo CyPHER Pass:
 Aqui los Usuarios han seleccionado la opciòn de Cifrar y se les invita a ingresar un Dato
