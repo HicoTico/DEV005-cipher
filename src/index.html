@@ -8,6 +8,7 @@
 </head>
 
 <body>
+
   <!--caja inicial-->
   <header id="inicio" class="inicio">
     <h1>! B I E N V E N I D O ¡</h1>
@@ -15,47 +16,47 @@
     <h2>CyPHER Pass</h2>
     <form>
       <h4>Para Obtener tu CyPHER Pass</h4>
-      <button type="button" id="goGenerar">Codificar</button>
-      </br>
+      <button type="button" class="btninicio" id="goGenerar">Codificar</button>
+
       <h4>Para Descicfrar tu CyPHER Pass</h4>
-      <button type="button" id="goDescifrar">DesCodificar</button>
+      <button type="button" class="btninicio" id="goDescifrar">DesCodificar</button>
     </form>
   </header>
+
   <!--caja de de cifrado-->
   <section id="getPass" class="getIn">
     <h1 class="getDisplay">CyPHER Pass</h1>
     <h2 class="getDisplay2">...Somos Tu Lugar seguro</h2>
     <p class="p1"> Para Codificar tu contraseña ingresa un Dato importante y selecciona el Rango de Dificultad.</p>
     <form class="form">
-      <input type="text" id="datoUsuario" class=text ospellcheck="false" placeholder="Ingresar dato tipo texto"
+      <input type="text" id="datoUsuario" class="text" spellcheck="false" placeholder="Ingresar dato tipo texto"
         name="datoGp" />
-      <br />
-      <input type="range" id="rango" class="rang" min="1" max="30" step="1" value="15"
+      <input type="range" id="rango" class="rang" min="1" max="40" step="1" value="20"
         oninput="this.nextElementSibling.value = this.value" />
-      <output>15</output>
-      <br />
-      <button type="button" id="get">Codificar</button>
-      </br>
-      <button type="button" id="otroCypher"> Inicio CyPHER Pass</button>
+      <output>20</output>
+      <button type="button" class="btnget" id="get"> Codificar </button>
+      <input type="text" id="gotPass" class="text" />
+      <p class="p2" id="p2"> ! E X C E L E N T E ! ...ya tienes tu CyPHER Pass </p>
+      <!--<h3 class="gotDisplay2">...ya tienes tu CyPHER Pass</h3>-->
+      <button type="button" class="btngetotro" id="otroCypher"> Inicio CyPHER Pass </button>
     </form>
   </section>
+
   <!-- caja de de descifrado-->
   <section id="getOffPass" class="getOff">
     <h1 class="getOffdisplay">CyPHER Pass</h1>
     <h2 class="getOffdisplay2">...Somos Tu Lugar seguro</h2>
     <form class="form">
       <p clas="p1">Para DesCodificar tu Cyphher Pass</p>
-      <input type="text" id="datoUsuariooff" class=text placeholder="Ingresar CyPHER Pass aqui" name="datoGop" />
-      </br>
-      <input type="range" id="rangoOff" class="rang" min="1" max="30" step="1" value="15"
+      <input type="text" id="datoUsuariooff" class="text" placeholder="Ingresar CyPHER Pass aqui" name="datoGop" />
+      <input type="range" id="rangoOff" class="rang" min="1" max="40" step="1" value="20"
         oninput="this.nextElementSibling.value = this.value" />
-      <output>15</output>
-      </br>
-      <button type="button" id="descifrar"> DesCodificar</button>
-
-      </br>
-      <button type="button" id="otroCypher2"> Inicio CyPHER Pass</button>
-    </form>
+      <output>20</output>
+      <button type="button" class="btnget" id="descifrar"> DesCodificar</button>
+      <!--<h2 class="gotOffdisplay">! E X C E L E N T E !</h2>-->
+      <input type="text" id="gotOffpass" class="text" />
+      <p class="p2" id="p3">! E X C E L E N T E !</p>
+      <button type="button" class="btngetotro" id="otroCypher2"> Inicio CyPHER Pass</button>
     </form>
   </section>
   <script src="index.js" type="module"></script>

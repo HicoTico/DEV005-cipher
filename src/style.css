@@ -31,7 +31,7 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     width: 350px;
-    height: 350px;
+    height: 440px;
     position: absolute;
     top: 0;
     left: 0;
@@ -55,11 +55,9 @@ header {
     font-size: 15pt;
     text-align: right;
     color: rgb(74, 88, 70);
-
 }
 
 .p1 {
-    border: none;
     padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -68,13 +66,34 @@ header {
     text-align: justify;
 }
 
+.p2 {
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gotDisplay {
+    margin: auto;
+    font-size: 10pt;
+    text-align: left;
+    color: rgb(62, 236, 9);
+}
+
+.gotDisplay2 {
+    font-size: 10pt;
+    text-align: right;
+    color: rgb(62, 236, 9);
+}
+
 
 .getOff {
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
     width: 350px;
-    height: 350px;
+    height: 400px;
     position: absolute;
     top: 0;
     left: 0;
@@ -116,16 +135,41 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 100%; 
 }
 
 .text {
+    margin-bottom: 10px;
     width: 90%;
     height: 20px;
-    margin: 1px
 }
 
 .rang {
+    margin-bottom: 15px;
     width: 90%;
     height: 10px;
-    margin: 1px
 }
+
+.btninicio {
+    padding: 5px 25px;
+    border:none;
+    background: whitesmoke;
+    cursor: pointer;
+  }
+
+  .btnget{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 25px;
+    border:none;
+    background: whitesmoke;
+    cursor: pointer;
+  }
+
+  .btngetotro{
+    margin-top: 15px ;
+    padding: 5px 25px;
+    border:none;
+    background: whitesmoke;
+    cursor: pointer;
+  }
