@@ -1,6 +1,6 @@
 
 
-![CyPHER Pass](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen1.png)
+![CyPHER Pass|100](https://github.com/HicoTico/DEV005-cipher/blob/main/intro_img.png?raw=true)
 
 
 # CyPHER Pass
@@ -41,23 +41,25 @@ CyPHER Pass es una web para Crear claves/contraseñas seguras que pueden ser uti
 
 CyPHER Pass consta de tres Display:
 
-    * Display de Bienvevenida:
+* Display de B I E N V E N I D A
+
 Donde se les da la bienvenida a los Usuarios a la Web Cypher Pass, su lugar seguro para generar
 contraseñas, dandole la opciòn por medio de dos botones a seleccionar con un click la opcion que
 desean ejecutar.
 
-![Display 1](https://github.com/HicoTico/DEV005-cipher/blob/26e40db203869041bd834e616724cfce55c0df06/thd_Imagen1.png?raw=true)
+![Display 1|100](https://github.com/HicoTico/DEV005-cipher/blob/26e40db203869041bd834e616724cfce55c0df06/thd_Imagen1.png?raw=true)
 
-    * Display de Cifrado, Obteniendo CyPHER Pass:
+* Display de Cifrado, Obteniendo CyPHER Pass:
+
 Aqui los Usuarios han seleccionado la opciòn de Cifrar y se les invita a ingresar un Dato
 importante, esto pensado bajo el hecho de que sea mas facil de recordar, asi mismo seleccionar
 un Rango entre 1 y 40, con el que se generara el desplazamiento de cifrado de la clave.  
 
 
-![Display 2](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen2.png)
+![Display 2|100](https://github.com/HicoTico/DEV005-cipher/blob/main/thd_display_2_1.png?raw=true)
 
 
-    * Display de DseCifrado, Obtenido el CyPHER Pass:
+* Display de DseCifrado, Obtenido el CyPHER Pass:
 
 Aqui los Usuarios han seleccionado la opciòn de DesCifrar, ya han obtenido su CyPHER Pass,
 y en este espacio pueden descifralo ingresando su CyPHER Pass, deberan ingresarlo en el espacio
@@ -65,7 +67,7 @@ indicado, seleccionar el mismo rango que utilizo para generar el Cifrado y voil�
 su CyPHER Pass ha sido DesCifrado.
 
 
-![Display 3](C:\Users\Dell\Desktop\pRo_DEV005\DEV005-cipher\thd_Imagen3.png)
+![Display 3|100](https://github.com/HicoTico/DEV005-cipher/blob/main/thd_display_3_1.png?raw=true)
 
 
 En los Displays de Cifrado y Descifrado, los Usuarios encontraran un Boton de volver al inicio

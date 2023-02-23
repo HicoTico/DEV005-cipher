@@ -1,5 +1,5 @@
 const cipher = {
-  encode: function (texto, offset) {
+  encode: function (offset, texto) {
     if (typeof texto !== 'string' || typeof offset !== 'number') {
       throw new TypeError('Argumentos son Invalidos');
     }
@@ -26,14 +26,12 @@ const cipher = {
         const algoritmoCifradofwd = ((codOffset - 65) % 26) + 65;
         const letraCifradafwd = String.fromCharCode(algoritmoCifradofwd);
         mensajeEncode += letraCifradafwd;
-      } else {
-        mensajeEncode += texto[i];
-      }
+      } 
     }
     return mensajeEncode;
   },
 
-  decode: function (texto, offset) {
+  decode: function (offset, texto) {
     if (typeof texto !== 'string' || typeof offset !== 'number') {
       throw new TypeError('Argumentos son Invalidos');
     }
@@ -59,9 +57,7 @@ const cipher = {
         const algoritmoDescifradofwd = ((codOffset + 65) % 26) + 65;
         const letraDescifradafwd = String.fromCharCode(algoritmoDescifradofwd);
         mensajeDecode += letraDescifradafwd;
-      } else {
-        mensajeDecode += texto[i];
-      }
+      } 
     }
     return mensajeDecode;
   }
