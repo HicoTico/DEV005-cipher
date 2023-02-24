@@ -18,7 +18,7 @@ adelante en el alfabeto.
 CyPHER Pass es una web para Crear claves/contraseñas seguras que pueden ser utilizadas en cualquier 
 plataforma o aplicacion, asi como crearlas, tambien descifralas en caso de que el usuario la extravie o la olvide.
 
-El Diseño se baso en la interaccion de direfentes display, con una paleta de colores inspirada en 
+El Diseño se baso en la interaccion de diferentes display, con una paleta de colores inspirada en 
 la saga The Matrix.
 
 
