@@ -22,7 +22,7 @@ El Diseño se baso en la interaccion de direfentes display, con una paleta de co
 la saga The Matrix.
 
 
-## 3. Ojetivos Generales del Proyecto
+## 3. Objetivos Generales del Proyecto
 
 * Aprender desde cero el manejo de los lenguajes html, css y javascript
  
